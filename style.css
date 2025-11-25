@@ -1,0 +1,5 @@
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:#87CEEB;font-family:Inter, Arial, sans-serif;overflow:hidden}
+#game{display:block;width:100vw;height:100vh;background:linear-gradient(#87CEEB,#5db2ff)}
+#hud{position:fixed;left:12px;top:12px;background:rgba(0,0,0,0.65);color:#fff;padding:8px 12px;border-radius:8px;z-index:100;font-size:13px}
+#hud div{margin:3px 0}
