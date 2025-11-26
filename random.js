@@ -1,0 +1,1 @@
+export const rand = (seed)=>Math.abs(Math.sin(seed*9999.1337)*99999)%1;

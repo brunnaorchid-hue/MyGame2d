@@ -1,14 +1,15 @@
-<!doctype html>
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Indev v0.3.0 — Pro Engine (Modules)</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MyGame 2D v1.0 (fixed)</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="hud"><div id="seed">Seed:</div><div id="info">Initializing…</div></div>
-  <canvas id="game"></canvas>
-  <script type="module" src="main.js"></script>
+<canvas id="game"></canvas>
+
+<!-- main.js is an ES module and imports other modules; load it as a module. -->
+<script type="module" src="./main.js"></script>
 </body>
 </html>
